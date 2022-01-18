@@ -1,6 +1,6 @@
 h1{text-align: center;}
 
-.row {background-color:lavender}
+.row {padding:15px; background-color:lavender}
 
 .col1{
 	margin:3px;
