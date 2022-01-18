@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    
+    <title>Bootstrap</title>
+ 
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	  <link href="index.css" rel="stylesheet"> 
+ 
+  </head>
+  <body>
+ 
+      <input type="button" class="btn" value="Submit">                             <!--will act as default-->
+      <input type="button" class="btn btn-default" value="Submit">
+      <input type="button" class="btn btn-primary" value="Submit">                 <!--primary will be in royal blue-->
+      <input type="button" class="btn btn-secondary" value="Submit">
+      <input type="button" class="btn btn-success" value="Submit">                 <!--success will be in green-->
+      <input type="button" class="btn btn-info" value="Submit">                    <!--info will be in sky blue-->
+      <input type="button" class="btn btn-warning" value="Submit">                 <!--warning will be in peach orange-->
+      <input type="button" class="btn btn-danger" value="Submit">                  <!--danger will be in red-->
+      <input type="button" class="btn btn-link" value="Submit">
+
+      <input type="button" class="btn-lg btn-primary" value="Submit">              <!--larger-->
+
+      <input type="button" class="btn-lg btn-primary active" value="Submit">       <!--darker than primary-->
+      <input type="button" class="btn-lg btn-primary disabled" value="Submit">     <!--no hover effect as its disabled-->
+      <input type="button" class="btn btn-primary disabled" value="Submit">
+ 
+      <div class="btn-group" role="group">
+        <button type="button" class="btn btn-primary">Submit 1</button>
+        <button type="button" class="btn btn-info">Submit 2</button>
+        <button type="button" class="btn btn-success">Submit 3</button>
+      </div>
+
+        <div class="btn-group btn-group-lg" role="group">
+          <button type="button" class="btn btn-primary">Submit 1</button>
+          <button type="button" class="btn btn-info">Submit 2</button>
+          <button type="button" class="btn btn-success">Submit 3</button>
+      </div>
+
+      <div class="btn-group-vertical" role="group">
+        <button type="button" class="btn btn-primary">Submit 1</button>
+        <button type="button" class="btn btn-info">Submit 2</button>
+        <button type="button" class="btn btn-success">Submit 3</button>
+      </div>
+
+      <div class="btn-toolbar" role="toolbar" id="test">
+          <div class="btn-group" role="group">
+            <button type="button" class="btn btn-primary">1</button>
+            <button type="button" class="btn btn-primary">2</button>
+            <button type="button" class="btn btn-secondary">3</button>
+            <button type="button" class="btn btn-primary">4</button>
+            <button type="button" class="btn btn-primary">5</button>
+          </div>
+
+          <div class="btn-group" role="group">
+            <button type="button" class="btn btn-primary">6</button>
+            <button type="button" class="btn btn-primary">7</button>
+            <button type="button" class="btn btn-secondary">8</button>
+            <button type="button" class="btn btn-primary">9</button>
+            <button type="button" class="btn btn-primary">10</button>
+          </div>
+      </div>
+
+    <script src="jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    
+ </body>
+</html>
